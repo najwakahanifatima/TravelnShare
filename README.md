@@ -1,4 +1,4 @@
-# ✈️ TravelnShare
+# TravelnShare ✈️ 
 
 <p align="center">
   <img src="./public/logo.svg" alt="Logo" width="600"/>
@@ -8,7 +8,7 @@ A travel-sharing and exploration web application built with **Next.js 15.4.1 App
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 ```
 ├── .next/                      # Next.js build output (auto-generated)
 ├── node_modules/               # Node.js dependencies
@@ -49,7 +49,7 @@ A travel-sharing and exploration web application built with **Next.js 15.4.1 App
 
 ---
 
-## 🚀 Features
+## Features
 
 - Explore travel destinations via cards
 - Filter by day, vibe, and transportation
@@ -59,7 +59,7 @@ A travel-sharing and exploration web application built with **Next.js 15.4.1 App
 
 ---
 
-## 🛠 Tech Stack
+## Tech Stack
 
 - **Framework**: [Next.js 15.4.1](https://nextjs.org/docs) (App Router)
 - **Language**: TypeScript
@@ -68,7 +68,7 @@ A travel-sharing and exploration web application built with **Next.js 15.4.1 App
 
 ---
 
-## 📦 Setup Instructions
+## Setup Instructions
 
 ### 1. Clone the Repository
 
@@ -88,7 +88,7 @@ yarn install
 npm run dev
 ```
 
-## 🖼️ Pages
+## Pages
 | Page | Screenshot |
 |---|---|
 | Homepage | <img width="2841" height="1544" alt="image" src="https://github.com/user-attachments/assets/c327bb8f-ec89-41ba-9389-036b29ecfe99" />|
