@@ -4,7 +4,9 @@
   <img src="./public/logo.svg" alt="Logo" width="600"/>
 </p>
 
-A travel-sharing and exploration web application built with **Next.js 15.4.1 App Router**, TypeScript, and TailwindCSS. Users can explore destinations, filter by preferences, and view travel cards submitted by the community. This platform is built on static data and focuses on front-end development.
+A travel-sharing and exploration web application built with **Next.js 15.4.1 App Router**, TypeScript, and TailwindCSS. Users can explore destinations, filter by preferences, and view travel cards submitted by the community. This platform is built on static data and focuses on front-end development. 
+
+This project is made as a Hands-On submission of SISTECH Portfolio Program in Front End Engineering 2025.
 
 Visit the deployed project here: https://traveln-share.vercel.app/
 
