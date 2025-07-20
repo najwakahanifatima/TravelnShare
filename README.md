@@ -6,6 +6,8 @@
 
 A travel-sharing and exploration web application built with **Next.js 15.4.1 App Router**, TypeScript, and TailwindCSS. Users can explore destinations, filter by preferences, and view travel cards submitted by the community. This platform is built on static data and focuses on front-end development.
 
+Visit the deployed website here: https://traveln-share.vercel.app/
+
 ---
 
 ## Project Structure
@@ -14,7 +16,7 @@ A travel-sharing and exploration web application built with **Next.js 15.4.1 App
 ├── node_modules/               # Node.js dependencies
 ├── public/                     # Static assets (images, data, etc.)
 ├── src/
-│   ├── app/                    # App directory (Next.js 13+ App Router)
+│   ├── app/                    # App directory (Next.js App Router)
 │   │   ├── destination/
 │   │   │   └── [id]/           # Dynamic route for destination details
 │   │   │       └── page.tsx
