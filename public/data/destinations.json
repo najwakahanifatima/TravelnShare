@@ -1,0 +1,121 @@
+[
+  {
+    "id": "card-001",
+    "userName": "Traveler0234612",
+    "createdDate": "10 June 2025",
+    "title": "Raja Ampat Nature",
+    "summary": "This is a travelling package for someone who loves nature and like to have relax sessions.",
+    "tags": {
+      "day": 4,
+      "vibes": "Nature",
+      "transportation": "Car"
+    },
+    "destinations": ["Pulau Misool", "Kepulauan Pianemo", "Desa Arborek"],
+    "likesCount": 127,
+    "isLiked": true,
+    "isBookmarked": false,
+    "image": "/raja-ampat-nature/main.jpg"
+  },
+  {
+    "id": "card-002",
+    "userName": "UrbanExplorer91",
+    "createdDate": "5 July 2025",
+    "title": "Jakarta The Central City",
+    "summary": "A vibrant and dynamic travel plan exploring Jakarta's modern lifestyle, malls, and rich culinary scenes.",
+    "tags": {
+      "day": 2,
+      "vibes": "Downtown",
+      "transportation": "Car"
+    },
+    "destinations": ["Monas", "Grand Indonesia", "Kota Tua"],
+    "likesCount": 89,
+    "isLiked": false,
+    "isBookmarked": true,
+    "image": "/jakarta-the-central-city/main.jpg"
+  },
+  {
+    "id": "card-003",
+    "userName": "IslandWanderer88",
+    "createdDate": "18 June 2025",
+    "title": "Labuan Bajo Komodo Island",
+    "summary": "Perfect for adventure seekers — explore Komodo dragons, crystal-clear waters, and rugged landscapes.",
+    "tags": {
+      "day": 3,
+      "vibes": "Adventure",
+      "transportation": "Boat"
+    },
+    "destinations": ["Komodo Island", "Pink Beach", "Padar Island"],
+    "likesCount": 154,
+    "isLiked": true,
+    "isBookmarked": true,
+    "image": "/labuan-bajo-komodo-island/main.jpg"
+  },
+  {
+    "id": "card-004",
+    "userName": "HistoryBuff77",
+    "createdDate": "2 July 2025",
+    "title": "Yogyakarta Heritage Tour",
+    "summary": "Dive into the heart of Javanese culture with temple visits and traditional food in Yogyakarta.",
+    "tags": {
+      "day": 3,
+      "vibes": "Historic",
+      "transportation": "Train"
+    },
+    "destinations": ["Borobudur", "Prambanan", "Malioboro Street"],
+    "likesCount": 98,
+    "isLiked": true,
+    "isBookmarked": false,
+    "image": "/yogyakarta-heritage/main.jpg"
+  },
+  {
+    "id": "card-005",
+    "userName": "ChillSeeker25",
+    "createdDate": "28 June 2025",
+    "title": "Bali Luxury Escape",
+    "summary": "Relax in Bali's top-tier resorts, enjoy spa days, and dine in luxury beachfront restaurants.",
+    "tags": {
+      "day": 4,
+      "vibes": "Luxury",
+      "transportation": "Plane"
+    },
+    "destinations": ["Seminyak", "Uluwatu", "Nusa Dua"],
+    "likesCount": 210,
+    "isLiked": false,
+    "isBookmarked": true,
+    "image": "/bali-luxury/main.jpg"
+  },
+  {
+    "id": "card-006",
+    "userName": "SoloWalker",
+    "createdDate": "11 July 2025",
+    "title": "Bandung City Walk",
+    "summary": "Explore Bandung’s culture and coffee scene on foot, from creative districts to street food gems.",
+    "tags": {
+      "day": 1,
+      "vibes": "Downtown",
+      "transportation": "Walk"
+    },
+    "destinations": ["Braga Street", "Alun-Alun Bandung", "Gedung Sate"],
+    "likesCount": 56,
+    "isLiked": false,
+    "isBookmarked": false,
+    "image": "/bandung-walk/main.png"
+  },
+  {
+    "id": "card-007",
+    "userName": "TropicalNomad",
+    "createdDate": "7 July 2025",
+    "title": "Belitung Island Nature Retreat",
+    "summary": "Get lost in turquoise waters, quiet beaches, and granite rock landscapes of Belitung.",
+    "tags": {
+      "day": 2,
+      "vibes": "Nature",
+      "transportation": "Plane"
+    },
+    "destinations": ["Tanjung Tinggi Beach", "Lengkuas Island", "Kaolin Lake"],
+    "likesCount": 73,
+    "isLiked": true,
+    "isBookmarked": false,
+    "image": "/belitung-nature/main.jpg"
+  }
+]
