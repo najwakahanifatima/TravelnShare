@@ -6,7 +6,7 @@
 
 A travel-sharing and exploration web application built with **Next.js 15.4.1 App Router**, TypeScript, and TailwindCSS. Users can explore destinations, filter by preferences, and view travel cards submitted by the community. This platform is built on static data and focuses on front-end development.
 
-Visit the deployed website here: https://traveln-share.vercel.app/
+Visit the deployed project here: https://traveln-share.vercel.app/
 
 ---
 
@@ -104,7 +104,7 @@ npm run dev
     <td align="center">
       <a href="https://github.com/najwakahanifatima">
         <img src="https://avatars.githubusercontent.com/najwakahanifatima" width="80" style="border-radius: 50%;" /><br />
-        <span><b>Najwa Kahani Fatima </br> 13523043</b></span>
+        <span><b>Najwa Kahani Fatima</span>
       </a>
     </td>
   </tr>
