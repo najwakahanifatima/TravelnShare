@@ -1,0 +1,20 @@
+[
+    {
+      "name": "Tanjung Tinggi Beach",
+      "description": "A beautiful white sand beach with giant granite rocks.",
+      "image": "/belitung-nature/tanjung-tinggi.jpg",
+      "mapsLink": "https://maps.google.com/?q=Tanjung+Tinggi+Beach"
+    },
+    {
+      "name": "Lengkuas Island",
+      "description": "Famous for its 19th-century lighthouse and crystal-clear waters.",
+      "image": "/belitung-nature/lengkuas.jpg",
+      "mapsLink": "https://maps.google.com/?q=Lengkuas+Island"
+    },
+    {
+      "name": "Kaolin Lake",
+      "description": "A surreal blue lake formed from a former kaolin mining site.",
+      "image": "/belitung-nature/kaolin-lake.jpg",
+      "mapsLink": "https://maps.google.com/?q=Kaolin+Lake+Belitung"
+    }
+]

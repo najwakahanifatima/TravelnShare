@@ -1,0 +1,20 @@
+[
+    {
+      "name": "Pulau Misool",
+      "description": "One of the four main islands, known for its limestone karsts and coral reefs.",
+      "image": "/raja-ampat-nature/misool.jpg",
+      "mapsLink": "https://maps.google.com/?q=Pulau+Misool"
+    },
+    {
+      "name": "Kepulauan Pianemo",
+      "description": "Scenic viewpoint offering panoramic views of turquoise lagoons and islands.",
+      "image": "/raja-ampat-nature/pianemo.jpg",
+      "mapsLink": "https://maps.google.com/?q=Pianemo"
+    },
+    {
+      "name": "Desa Arborek",
+      "description": "A charming village known for its marine biodiversity and friendly locals.",
+      "image": "/raja-ampat-nature/arborek.jpg",
+      "mapsLink": "https://maps.google.com/?q=Desa+Arborek"
+    }
+]

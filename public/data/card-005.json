@@ -1,0 +1,20 @@
+[
+    {
+      "name": "Seminyak",
+      "description": "Upscale beach resort area known for luxury spas, fine dining, and boutique shops.",
+      "image": "/bali-luxury/seminyak.jpg",
+      "mapsLink": "https://maps.google.com/?q=Seminyak+Bali"
+    },
+    {
+      "name": "Uluwatu",
+      "description": "Home to cliffside temples and dramatic ocean sunsets.",
+      "image": "/bali-luxury/uluwatu.jpg",
+      "mapsLink": "https://maps.google.com/?q=Uluwatu+Bali"
+    },
+    {
+      "name": "Nusa Dua",
+      "description": "Exclusive beach resort with calm waters and luxury resorts.",
+      "image": "/bali-luxury/nusa-dua.jpg",
+      "mapsLink": "https://maps.google.com/?q=Nusa+Dua"
+    }
+]

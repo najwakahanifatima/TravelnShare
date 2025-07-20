@@ -1,0 +1,20 @@
+[
+    {
+      "name": "Braga Street",
+      "description": "Historic European-style street lined with cafes, art, and architecture.",
+      "image": "/bandung-walk/braga.jpg",
+      "mapsLink": "https://maps.google.com/?q=Braga+Bandung"
+    },
+    {
+      "name": "Alun-Alun Bandung",
+      "description": "The city square where locals relax, featuring a mosque and green lawn.",
+      "image": "/bandung-walk/alun-alun.jpg",
+      "mapsLink": "https://maps.google.com/?q=Alun-Alun+Bandung"
+    },
+    {
+      "name": "Gedung Sate",
+      "description": "Bandung’s iconic government building with colonial architecture.",
+      "image": "/bandung-walk/gedung-sate.jpg",
+      "mapsLink": "https://maps.google.com/?q=Gedung+Sate"
+    }
+]

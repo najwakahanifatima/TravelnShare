@@ -1,0 +1,20 @@
+[
+    {
+      "name": "Komodo Island",
+      "description": "Home to the famous Komodo dragons and rugged savanna hills.",
+      "image": "/labuan-bajo-komodo-island/komodo.jpg",
+      "mapsLink": "https://maps.google.com/?q=Komodo+Island"
+    },
+    {
+      "name": "Pink Beach",
+      "description": "A stunning beach with pink-hued sand and excellent snorkeling.",
+      "image": "/labuan-bajo-komodo-island/pink-beach.jpg",
+      "mapsLink": "https://maps.google.com/?q=Pink+Beach+Komodo"
+    },
+    {
+      "name": "Padar Island",
+      "description": "Famous for its multi-bay hilltop viewpoint with sunrise views.",
+      "image": "/labuan-bajo-komodo-island/padar.jpg",
+      "mapsLink": "https://maps.google.com/?q=Padar+Island"
+    }
+]

@@ -1,0 +1,20 @@
+[
+    {
+      "name": "Monas",
+      "description": "The National Monument symbolizing Indonesia’s independence.",
+      "image": "/jakarta-the-central-city/monas.png",
+      "mapsLink": "https://maps.google.com/?q=Monas+Jakarta"
+    },
+    {
+      "name": "Grand Indonesia",
+      "description": "A massive shopping mall with dining and entertainment.",
+      "image": "/jakarta-the-central-city/grand-indonesia.jpg",
+      "mapsLink": "https://maps.google.com/?q=Grand+Indonesia"
+    },
+    {
+      "name": "Kota Tua",
+      "description": "The historical heart of Jakarta filled with Dutch colonial buildings.",
+      "image": "/jakarta-the-central-city/kota-tua.jpg",
+      "mapsLink": "https://maps.google.com/?q=Kota+Tua+Jakarta"
+    }
+  ]

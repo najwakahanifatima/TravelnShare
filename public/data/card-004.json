@@ -1,0 +1,20 @@
+[
+    {
+      "name": "Borobudur",
+      "description": "The world's largest Buddhist temple with rich carvings and a sacred sunrise experience.",
+      "image": "/yogyakarta-heritage/borobudur.jpg",
+      "mapsLink": "https://maps.google.com/?q=Borobudur"
+    },
+    {
+      "name": "Prambanan",
+      "description": "A majestic Hindu temple complex dedicated to the Trimurti.",
+      "image": "/yogyakarta-heritage/prambanan.jpg",
+      "mapsLink": "https://maps.google.com/?q=Prambanan"
+    },
+    {
+      "name": "Malioboro Street",
+      "description": "The city's cultural and shopping hub, great for batik and street food.",
+      "image": "/yogyakarta-heritage/malioboro.jpg",
+      "mapsLink": "https://maps.google.com/?q=Malioboro"
+    }
+]
