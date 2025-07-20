@@ -21,7 +21,7 @@ export const DynamicBackground = ( {children} : { children: React.ReactNode}) =>
             backgroundAttachment: 'scroll',
             }}
         >
-            <main className="flex-1 min-h-[800px]">
+            <main className="flex-1">
                 {children}
             </main>
             <Footer />
