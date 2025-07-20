@@ -9,7 +9,7 @@ export const DynamicBackground = ( {children} : { children: React.ReactNode}) =>
     const bgImage = 
         pathName === '/'
             ? "url('/background/home.svg')"
-            : pathName.startsWith('/destination')
+            : pathName === '/destination'
             ? "url('/background/destination.svg')"
             : 'none';
     
