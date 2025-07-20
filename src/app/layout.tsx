@@ -12,6 +12,9 @@ const poppins = Poppins({
 export const metadata: Metadata = {
   title: "TravelnShare",
   description: "by Najwa Kahani Fatima",
+  icons: {
+    icon: '/favicon.svg',
+  },
 };
 
 export default function RootLayout({
@@ -21,7 +24,6 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="scroll-smooth">
-      <link rel="icon" href="/favicon.svg" />
       <body className={`${poppins.className} antialiased`} >
         <NavBar/> 
         <DynamicBackground>
