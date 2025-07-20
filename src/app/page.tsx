@@ -7,6 +7,7 @@ import Autoplay from "embla-carousel-autoplay";
 import { Button } from "@/components/ui/button";
 import { motion } from "framer-motion";
 import Link from "next/link";
+import Image from "next/image";
 
 export default function Home() {
   const carouselImages = [
@@ -97,7 +98,7 @@ export default function Home() {
               <CarouselContent className="h-20">
                 {carouselImages.map((value, index) => (
                   <CarouselItem key={index}>
-                    <img src={value} alt="Carousel Image" className="w-full h-16" />
+                    <Image src={value} alt="Carousel Image" className="w-full h-16" width={100} height={100} />
                   </CarouselItem>
                 ))}
               </CarouselContent>
@@ -181,10 +182,12 @@ export default function Home() {
           transition={{ duration: 0.8, ease: easeOut, delay: 0.6 }}
           viewport={{ once: true, amount: 0.2 }}
         >
-          <img
+          <Image
             src="/main-page/destination.svg"
             alt="Destination Images"
             className="h-[400px]"
+            width={700}
+            height={500}
           />
         </motion.aside>
       </section>
@@ -199,10 +202,12 @@ export default function Home() {
           transition={{ duration: 0.8, ease: easeOut, delay: 0 }}
           viewport={{ once: true, amount: 0.2 }}
         >
-          <img
+          <Image
             src="/main-page/experience.svg"
             alt="Share Your Experience Steps"
             className="h-[350px]"
+            width={600}
+            height={400}
           />
         </motion.aside>
 

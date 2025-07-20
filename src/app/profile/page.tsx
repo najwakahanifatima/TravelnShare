@@ -32,7 +32,7 @@ export default function ProfilePage() {
             <section className="mb-12">
             <h2 className="text-xl font-semibold text-red-500 mb-4">Liked Destinations</h2>
             {likedCards.length === 0 ? (
-                <p className="text-gray-500 text-sm">You haven't liked any destinations yet.</p>
+                <p className="text-gray-500 text-sm">You have not liked any destinations yet.</p>
             ) : (
                 <div className="grid md:grid-cols-2 gap-6">
                 {likedCards.map(card => (
@@ -46,7 +46,7 @@ export default function ProfilePage() {
             <section>
             <h2 className="text-xl font-semibold text-blue-500 mb-4">Bookmarked Destinations</h2>
             {bookmarkedCards.length === 0 ? (
-                <p className="text-gray-500 text-sm">You haven't bookmarked any destinations yet.</p>
+                <p className="text-gray-500 text-sm">You have not bookmarked any destinations yet.</p>
             ) : (
                 <div className="grid md:grid-cols-2 gap-6">
                 {bookmarkedCards.map(card => (

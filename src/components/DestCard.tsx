@@ -3,6 +3,7 @@ import { Badge } from "./ui/badge";
 import { Heart, Bookmark } from "lucide-react";
 import { useState } from "react";
 import Link from "next/link";
+import Image from "next/image";
 
 export interface DestCardProps {
     id: string;
@@ -55,10 +56,12 @@ export const DestCard = ({
             <Card className="p-4 rounded-xl shadow-md flex flex-row gap-4 max-w-2xl cursor-pointer">
                 {/* Left Image */}
                 <div className="w-full md:w-5/12 aspect-video">
-                    <img
+                    <Image
                         src={image}
                         alt={title}
                         className="w-full h-full object-cover rounded-md"
+                        width={700}
+                        height={400}
                     />
                 </div>
 

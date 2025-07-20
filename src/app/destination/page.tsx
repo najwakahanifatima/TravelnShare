@@ -15,6 +15,7 @@ import {
   PaginationLink,
 } from "@/components/ui/pagination"
 import { DestCardProps } from "@/components/DestCard";
+import Image from "next/image";
 
 export default function Destination() {
     const easeOut = [0.25, 0.1, 0.25, 1] as const;
@@ -128,10 +129,12 @@ export default function Destination() {
                     transition={{ duration: 0.8, ease: easeOut, delay: 0.6 }}
                     viewport={{ once: true, amount: 0.2 }}
                 >
-                <img
+                <Image
                     src="/main-page/destination.svg"
                     alt="Destination Images"
                     className="h-[400px]"
+                    width={700}
+                    height={400}
                 />
                 </motion.aside>
             </section>

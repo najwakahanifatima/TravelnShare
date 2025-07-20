@@ -35,13 +35,13 @@ export const NavBar = () => {
       <div className="flex items-center justify-between">
         <Image src="/logo.svg" alt="Logo" width={180} height={90} />
         <div className="flex-1 flex justify-center gap-20 text-sm">
-          <a href="/" className="transform transition hover:text-[#567968] hover:-translate-y-0.5">
+          <Link href="/" className="transform transition hover:text-[#567968] hover:-translate-y-0.5">
             Home
-          </a>
-          <a href="/destination" className="transform transition hover:text-[#567968] hover:-translate-y-0.5">
+          </Link>
+          <Link href="/destination" className="transform transition hover:text-[#567968] hover:-translate-y-0.5">
             Explore Destination
-          </a>
-          <a
+          </Link>
+          <Link
             href="#"
             onClick={(e) => {
               e.preventDefault();
@@ -50,7 +50,7 @@ export const NavBar = () => {
             className="transform transition hover:text-[#567968] hover:-translate-y-0.5"
           >
             Add Packages
-          </a>
+          </Link>
 
         </div>
         <Link href="/profile">

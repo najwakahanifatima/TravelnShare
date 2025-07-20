@@ -6,6 +6,7 @@ import { motion } from 'framer-motion';
 import { Bookmark, Heart, MapPin, ArrowLeft } from 'lucide-react';
 import { DestCard, DestCardProps } from '@/components/DestCard';
 import { Badge } from '@/components/ui/badge';
+import Image from 'next/image';
 
 interface DetailData {
     name: string;
@@ -154,7 +155,7 @@ export default function DestinationDetails() {
                 animate={{ opacity: 1 }}
                 transition={{ delay: 0.2 }}
             >
-                <img src={card.image} alt={card.title} className="w-full h-full object-cover" />
+                <Image src={card.image} alt={card.title} className="w-full h-full object-cover" width={700} height={400} />
             </motion.div>
 
             <motion.h2 
@@ -173,7 +174,7 @@ export default function DestinationDetails() {
             >
                 {destinations.map((dest, idx) => (
                     <div key={idx} className="flex gap-6 items-center bg-white p-4 rounded-md shadow-sm">
-                        <img src={dest.image} alt={dest.name} className="w-28 h-20 object-cover rounded-md" />
+                        <Image src={dest.image} alt={dest.name} className="w-28 h-20 object-cover rounded-md" width={700} height={400} />
                         <div className="flex-1">
                             <p className="font-bold text-gray-700">{dest.name}</p>
                             <p className="text-xs text-gray-500 mt-1">{dest.description}</p>
