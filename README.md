@@ -1,36 +1,109 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# ✈️ TravelnShare
 
-## Getting Started
+<p align="center">
+  <img src="./public/logo.svg" alt="Logo" width="600"/>
+</p>
 
-First, run the development server:
+A travel-sharing and exploration web application built with **Next.js 15.4.1 App Router**, TypeScript, and TailwindCSS. Users can explore destinations, filter by preferences, and view travel cards submitted by the community. This platform is built on static data and focuses on front-end development.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+---
+
+## 📁 Project Structure
+```
+├── .next/                      # Next.js build output (auto-generated)
+├── node_modules/               # Node.js dependencies
+├── public/                     # Static assets (images, data, etc.)
+├── src/
+│   ├── app/                    # App directory (Next.js 13+ App Router)
+│   │   ├── destination/
+│   │   │   └── [id]/           # Dynamic route for destination details
+│   │   │       └── page.tsx
+│   │   │   └── page.tsx        # Explore destination page
+│   │   ├── profile/
+│   │   │   └── page.tsx        # User profile page
+│   │   ├── globals.css         # Global Tailwind and custom styles
+│   │   ├── layout.tsx          # Main layout for all pages
+│   │   └── page.tsx            # Homepage
+│   ├── components/
+│   │   └── ui/                 # UI components from Shadcn UI
+│   │   ├── DestCard.tsx
+│   │   ├── DynamicBackground.tsx
+│   │   ├── FilterBox.tsx
+│   │   ├── Footer.tsx
+│   │   └── NavBar.tsx
+│   └── lib/                    # Shared utility functions
+├── .gitignore
+├── components.json            # Shadcn UI config
+├── eslint.config.mjs          # ESLint config for code linting
+├── next-env.d.ts              # Next.js environment types
+├── next.config.js             # Next.js configuration
+├── package.json               # Project metadata and scripts
+├── package-lock.json          # Dependency lock file
+├── postcss.config.mjs         # PostCSS config (used by TailwindCSS)
+├── README.md                  # Project README
+├── tsconfig.json              # TypeScript configuration
+
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 🚀 Features
 
-To learn more about Next.js, take a look at the following resources:
+- Explore travel destinations via cards
+- Filter by day, vibe, and transportation
+- Dynamic routing for destination detail pages
+- Bookmark and like functionality (mocked for now)
+- Modular and reusable components
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🛠 Tech Stack
 
-## Deploy on Vercel
+- **Framework**: [Next.js 15.4.1](https://nextjs.org/docs) (App Router)
+- **Language**: TypeScript
+- **Styling**: Tailwind CSS
+- **Icons/UI**: [Lucide](https://lucide.dev/), Shadcn UI
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 📦 Setup Instructions
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/najwakahanifatima/TravelnShare.git
+```
+
+### 2. Install Dependencies
+```bash
+npm install
+# or
+yarn install
+```
+
+### 3. Run the Development Server
+```bash
+npm run dev
+```
+
+## 🖼️ Pages
+| Page | Screenshot |
+|---|---|
+| Homepage | <img width="2841" height="1544" alt="image" src="https://github.com/user-attachments/assets/c327bb8f-ec89-41ba-9389-036b29ecfe99" />|
+| Explore Destination |<img width="2824" height="1555" alt="image" src="https://github.com/user-attachments/assets/c7e68cc9-673d-43da-8d86-d76eec8ef414" /> |
+| Details | <img width="2831" height="1415" alt="image" src="https://github.com/user-attachments/assets/e2343555-cc28-47af-9338-5f9911105e77" /> |
+| Profile | <img width="2836" height="1402" alt="image" src="https://github.com/user-attachments/assets/1f0d25b7-9519-4e9c-8d07-29f8c38c5d03" /> |
+
+## 👩🏻‍💻 Contributor
+<table>
+  <tr>
+    <td align="center">
+      <a href="https://github.com/najwakahanifatima">
+        <img src="https://avatars.githubusercontent.com/najwakahanifatima" width="80" style="border-radius: 50%;" /><br />
+        <span><b>Najwa Kahani Fatima </br> 13523043</b></span>
+      </a>
+    </td>
+  </tr>
+</table>
