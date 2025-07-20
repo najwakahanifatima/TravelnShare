@@ -6,6 +6,7 @@ import { useState } from "react";
 import Autoplay from "embla-carousel-autoplay";
 import { Button } from "@/components/ui/button";
 import { motion } from "framer-motion";
+import Link from "next/link";
 
 export default function Home() {
   const carouselImages = [
@@ -165,9 +166,11 @@ export default function Home() {
             transition={{ duration: 0.8, ease: easeOut, delay: 0.4 }}
             viewport={{ once: true, amount: 0.2 }}
           >
-            <Button className="mt-10 rounded-3xl bg-[#F2CC8F] text-white font-semibold w-[10rem] hover:-translate-y-0.5 transform transition hover:bg-[#F5BB5E]">
-              Explore Now
-            </Button>
+            <Link href="/destination">
+              <Button className="cursor-pointer mt-10 rounded-3xl bg-[#F2CC8F] text-white font-semibold w-[10rem] hover:-translate-y-0.5 transform transition hover:bg-[#F5BB5E]">
+                Explore Now
+              </Button>
+            </Link>
           </motion.div>
         </aside>
 
@@ -232,7 +235,9 @@ export default function Home() {
             transition={{ duration: 0.8, ease: easeOut, delay: 0.6 }}
             viewport={{ once: true, amount: 0.2 }}
           >
-            <Button className="mt-10 rounded-3xl bg-[#F2CC8F] text-white font-semibold w-[10rem] hover:-translate-y-0.5 transform transition hover:bg-[#F5BB5E]">
+            <Button 
+              onClick={() => alert('This feature is still in progress. Please check back soon!')}
+              className="mt-10 rounded-3xl bg-[#F2CC8F] text-white font-semibold w-[10rem] hover:-translate-y-0.5 transform transition hover:bg-[#F5BB5E]">
               Add Yours Now
             </Button>
           </motion.div>

@@ -3,6 +3,7 @@
 import { useEffect, useState } from "react";
 import { Button } from "@/components/ui/button";
 import Image from "next/image";
+import Link from "next/link";
 
 export const NavBar = () => {
   const [hidden, setHidden] = useState(false);
@@ -40,13 +41,23 @@ export const NavBar = () => {
           <a href="/destination" className="transform transition hover:text-[#567968] hover:-translate-y-0.5">
             Explore Destination
           </a>
-          <a href="#" className="transform transition hover:text-[#567968] hover:-translate-y-0.5">
+          <a
+            href="#"
+            onClick={(e) => {
+              e.preventDefault();
+              alert('This feature is still in progress. Please check back soon!');
+            }}
+            className="transform transition hover:text-[#567968] hover:-translate-y-0.5"
+          >
             Add Packages
           </a>
+
         </div>
-            <Button className="rounded-full font-semibold px-5 bg-[#3E6652] text-white cursor-pointer hover:-translate-y-0.5 transform transition">
-              Profile
-            </Button>
+        <Link href="/profile">
+          <Button className="rounded-full font-semibold px-5 bg-[#3E6652] text-white cursor-pointer hover:-translate-y-0.5 transform transition">
+            Profile
+          </Button>
+        </Link>
       </div>
     </nav>
   );
