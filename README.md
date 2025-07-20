@@ -16,7 +16,7 @@ Visit the deployed website here: https://traveln-share.vercel.app/
 ├── node_modules/               # Node.js dependencies
 ├── public/                     # Static assets (images, data, etc.)
 ├── src/
-│   ├── app/                    # App directory (Next.js 13+ App Router)
+│   ├── app/                    # App directory (Next.js App Router)
 │   │   ├── destination/
 │   │   │   └── [id]/           # Dynamic route for destination details
 │   │   │       └── page.tsx
